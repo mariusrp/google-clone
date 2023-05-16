@@ -2,24 +2,24 @@ import CountryLookUp from './CountryLookUp';
 
 export default function Footer() {
   return (
-    <footer className='absolute bottom-0 w-full space-y-2 bg-[#f2f2f2] p-3 text-[#70757a] text-sm'>
+    <footer className='absolute bottom-0 w-full p-3 text-[#70757a] text-sm bg-[#f2f2f2]'>
       <div className='border-b px-8 py-3'>
         <CountryLookUp />
       </div>
-      <div className='grid grid-cols-1 lg:grid-cols-3 gap-4'>
-        <div className='order-1 lg:order-2 lg:col-start-2 text-center'>
-          <p>CO2-nøytral siden 2007</p>
-        </div>
-        <div className='order-2 lg:order-1 lg:col-start-1 lg:col-end-2'>
-          <ul className='flex items-center justify-center lg:justify-start space-x-6'>
+      <div className='flex flex-col lg:flex-row justify-between items-center px-6 lg:px-0'>
+        <div className='text-center lg:text-left'>
+          <ul className='flex justify-center lg:justify-start space-x-6 py-2'>
             <li className='link'>Info</li>
             <li className='link'>Annonsering</li>
             <li className='link'>Bedrifter</li>
             <li className='link'>Slik fungerer Søk</li>
           </ul>
         </div>
-        <div className='order-3 lg:order-3 lg:col-start-3 lg:col-end-4'>
-          <ul className='flex items-center justify-center lg:justify-start space-x-6'>
+        <div className='text-center py-2'>
+          <p>CO2-nøytral siden 2007</p>
+        </div>
+        <div className='text-center lg:text-right'>
+          <ul className='flex justify-center lg:justify-start space-x-6 py-2'>
             <li className='link'>Personvern</li>
             <li className='link'>Vilkår</li>
             <li className='link'>Instillinger</li>
