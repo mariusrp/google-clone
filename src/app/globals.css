@@ -18,7 +18,7 @@
         @apply bg-transparent hover:bg-gray-200 p-2 text-4xl rounded-full cursor-pointer text-gray-500
     }
     .search-header-option {
-        @apply text-sm p-2 rounded-full border border-gray-300 hover:bg-gray-100 hover:cursor-pointer mx-0.5
+        @apply text-sm px-3 py-2.5 rounded-full border border-gray-300 hover:bg-gray-100 hover:cursor-pointer
     }
 }
 

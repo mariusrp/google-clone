@@ -18,7 +18,7 @@ export default function SearchBox() {
   }
   return (
     <form
-      className='flex rounded-full shadow-md hover:shadow-lg active:shadow-lg py-3 px-5 mx-5 max-w-2xl'
+      className='flex border border-gray-200 rounded-full shadow-md hover:shadow-lg active:shadow-lg py-3 px-5 mx-5 max-w-2xl'
       onSubmit={handleSubmit}
     >
       <input

@@ -7,12 +7,12 @@ import SearchHeaderOptions from './SearchHeaderOptions';
 
 export default function SearchHeader() {
   return (
-    <header className='sticky top-0 bg-white p-2'>
+    <header className='sticky top-0 bg-white p-2 border-b'>
       <div className='flex w-full p-6 items-center justify-between'>
         <Link href={'/'}>
           <Image
-            width='90'
-            height='50'
+            width='100'
+            height='60'
             src='https://media.snl.no/media/129947/standard_1280px-Google_2015_logo.svg.png'
             alt='Google logo'
             className='object-fill'
