@@ -11,7 +11,7 @@ export default function SearchHeaderOptions() {
     router.push(`/search/${tab}/?searchTerm=${searchTerm}`);
   }
   return (
-    <div className='flex space-x-2 select-none w-full justify-center lg:justify-start lg:pl-40 text-gray-700'>
+    <div className='flex space-x-2 select-none w-full  justify-start pl-40 text-gray-700'>
       {pathname !== '/search/web' && (
         <div
           className='search-header-option border-none flex space-x-1 items-center justify-center'
