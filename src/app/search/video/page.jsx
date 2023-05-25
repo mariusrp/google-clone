@@ -1,3 +1,5 @@
-export default function SearchVideoPage() {
-  return <div>No videos found :/</div>;
+import VideoSearchResults from '@/components/VideoSearchResults';
+
+export default async function SearchVideoPage() {
+  return <VideoSearchResults />;
 }

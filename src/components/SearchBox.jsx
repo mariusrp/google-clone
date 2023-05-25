@@ -23,7 +23,7 @@ export default function SearchBox() {
     >
       <input
         type='text'
-        className='flex-grow focus:outline-none'
+        className='w-full focus:outline-none'
         value={term}
         onChange={(e) => setTerm(e.target.value)}
       />
